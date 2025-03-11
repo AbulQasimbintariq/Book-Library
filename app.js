@@ -1,5 +1,6 @@
 const header = document.querySelector("#Header")
 const navOpts= document.querySelectorAll(".opts")
+
 header.addEventListener("mouseover", ()=>{
     
     header.style.fontStyle = "italic";
