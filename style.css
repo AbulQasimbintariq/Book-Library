@@ -79,9 +79,8 @@ main p:hover{
 }
 
 @media only screen and (max-width: 500px) {
-  bookpic {
-  width: 8rem;
-
+  .bookpic {
+   width: auto;
   }
 }
 
@@ -106,7 +105,7 @@ main p:hover{
 
 @media only screen and (max-width: 500px) {
   .bookspic img{
-  width: 3rem;
+  width: auto;
 
   }
 }
