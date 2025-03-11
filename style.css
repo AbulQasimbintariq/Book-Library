@@ -77,6 +77,14 @@ main p:hover{
   text-align: center;
   border-radius: 2rem 0;
 }
+
+@media only screen and (max-width: 500px) {
+  bookpic {
+  width: 10rem;
+
+  }
+}
+
 .bookpic img{
   width: 60%;
 }
