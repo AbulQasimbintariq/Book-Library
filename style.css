@@ -68,7 +68,7 @@ main p:hover{
 }
 .booktypes{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .bookpic{
   border: 1px solid black;
@@ -78,7 +78,7 @@ main p:hover{
   border-radius: 2rem 0;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
   .bookpic {
    width: auto;
   }
@@ -104,8 +104,8 @@ main p:hover{
 }
 
 @media only screen and (max-width: 500px) {
-  .bookspic img{
-  width: auto;
+  .bookspic{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
   }
 }
