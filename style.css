@@ -34,7 +34,13 @@
  @media only screen and (max-width: 650px) {
   nav {
     display: none;
+
   }
+  nav ul li{
+    font-size: .8rem;
+    font-weight: 900;
+  }
+
 }
 main h1 {
   text-align: center;

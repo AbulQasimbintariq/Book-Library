@@ -1,5 +1,7 @@
 const header = document.querySelector("#Header")
-const navOpts= document.querySelectorAll(".opts")
+let navOpts= document.querySelectorAll(".opts")
+let Nav_= document.querySelector("#nav")
+ 
 
 header.addEventListener("mouseover", ()=>{
     
@@ -14,6 +16,12 @@ header.addEventListener("mouseover", ()=>{
     header.style.color = "white";
     header.style.textShadow = "none";
     header.style.background="black";
+    header.addEventListener("click",()=>{
+    Nav_.style.display="block";  
+    })
+    header.addEventListener("dblclick",()=>{
+      Nav_.style.display="none"; 
+      })
 })})
   navOpts.forEach((navOpt) => {   
     navOpt.addEventListener("mouseover", ()=>{
