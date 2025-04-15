@@ -1,6 +1,7 @@
 const header = document.querySelector("#Header")
 let navOpts= document.querySelectorAll(".opts")
 let Nav_= document.querySelector("#nav")
+let body_= document.querySelector("body")
  
 
 header.addEventListener("mouseover", ()=>{
@@ -19,7 +20,7 @@ header.addEventListener("mouseover", ()=>{
     header.addEventListener("click",()=>{
     Nav_.style.display="block";  
     })
-    header.addEventListener("dblclick",()=>{
+    body_.addEventListener("dblclick",()=>{
       Nav_.style.display="none"; 
       })
 })})
@@ -27,7 +28,7 @@ header.addEventListener("mouseover", ()=>{
     navOpt.addEventListener("mouseover", ()=>{
         navOpt.style.background="black";
         navOpt.style.color="white";
-        navOpt.style.padding="1rem";
+        navOpt.style.padding=".5rem";
         navOpt.style.transition = "all 1.5s ease";
         navOpt.addEventListener("mouseout",()=>{
         navOpt.style.background="white";
